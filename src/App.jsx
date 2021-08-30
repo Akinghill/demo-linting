@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 
+const apple = 'fuji'
+
 function App() {
   return (
     <div className='App'>
@@ -9,6 +11,7 @@ function App() {
         <p>
           Edit <code>src/App.js </code>
           and save to reload.
+          {apple}
         </p>
         <a
           className='App-link'
